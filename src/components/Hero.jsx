@@ -78,11 +78,11 @@ const Hero = () => {
 
        
        <Image
-            src={'/yoga2.jpg'}
+            src={'/yoga8.jpg'}
             alt='img'
             width={364}
             height={100}
-            className='rounded-2xl relative top-2 right-8 shadow'
+            className='rounded-2xl relative top-2 right-8'
             />
             
          </div>

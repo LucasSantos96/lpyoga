@@ -34,7 +34,7 @@ const AboutUs = () => {
     alt='yoga'
     width={496}
     height={284}
-    className='rounded-2xl'
+    className='rounded-2xl '
     />
       </div>
 

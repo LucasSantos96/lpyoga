@@ -23,7 +23,7 @@ const Header = () => {
 
                 <Link href='#aboutus' scroll={true} className={'hover:text-[#62826B]'} nome={'Home'}>About Us</Link>
 
-               <Link href={''} className={'hover:text-[#62826B]'} nome={'Home'}>Services</Link>
+               <Link href='#services' className={'hover:text-[#62826B]'} nome={'Home'}>Services</Link>
 
                <Link href={''} className={'hover:text-[#62826B]'} nome={'Home'}>Pages</Link>
                
