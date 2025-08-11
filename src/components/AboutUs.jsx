@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Card from './Card'
@@ -10,18 +11,18 @@ const AboutUs = () => {
            <h2 className='text-5xl mb-6'>Our Passion for Yoga & Meditation</h2>
            <p className='text-[#A5A5A7]'>Id massa id tortor interdum consectetur eu ultrices viverra. Est aliquet pellentesque potenti.</p>
         </div>
-        <div className='flex gap-12 mt-10 justify-center lg:mt-0 lg:justify-normal'>
+        <div className=' flex gap-12 mt-10 justify-center lg:mt-0 lg:justify-normal'>
           <div className='w-[100px]'>
-            <h3 className='text-5xl'>20+</h3>
+            <h3 className='text-4xl lg:text-5xl'>20+</h3>
             <p className='text-[12px] text-[#A5A5A7]'>Years of Experience</p>
           </div>
             <div className='w-[100px]'>
-              <h3 className='text-5xl'>30+</h3>
+              <h3 className='text-4xl lg:text-5xll'>30+</h3>
                         <p className='text-[12px] text-[#A5A5A7]'>Countries Reached</p>
             </div>
 
             <div className='w-[100px]'>
-              <h3 className='text-5xl'>2K+</h3>
+              <h3 className='text-4xl lg:text-5xl'>2K+</h3>
                         <p className='text-[12px] text-[#A5A5A7]'>Classes Conducted</p>
             </div>
           </div>

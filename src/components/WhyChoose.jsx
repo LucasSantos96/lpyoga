@@ -34,9 +34,9 @@ const WhyChoose = () => {
 
          {/*Section 2 */}
          
-               <div className="ml-[100px] w-[330px] lg:w-[530px]">
+               <div className="lg:ml-[100px] w-[330px] lg:w-[530px] mx-auto">
          <p className="text-[12px] font-medium py-2 px-4 bg-white rounded-full w-fit">Why Choose Us</p>
-         <h2 className="text-5xl mt-4">The Shanty: Your Path to Inner Peace</h2>
+         <h2 className="text-4xl lg:text-5xl mt-4">The Shanty: Your Path to Inner Peace</h2>
          <div className="flex mt-12 gap-6">
          <div className='p-4 rounded-full bg-white w-fit h-fit'>
            <div className='p-2 bg-[#62826B] rounded-full w-fit '>
@@ -45,7 +45,7 @@ const WhyChoose = () => {
                  alt='yoga'
                  width={32}
                  height={12}
-                 className=''
+                 className='w-20 md:w-14 lg:w-12'
                  />
            </div>
          </div>
@@ -62,7 +62,7 @@ const WhyChoose = () => {
                  alt='yoga'
                  width={32}
                  height={12}
-                 className=''
+                 className='w-20 md:w-14 lg:w-12'
                  />
            </div>
          </div>
@@ -81,7 +81,7 @@ const WhyChoose = () => {
                  alt='yoga'
                  width={32}
                  height={12}
-                 className=''
+                 className='w-20 md:w-14 lg:w-12'
                  />
            </div>
          </div>

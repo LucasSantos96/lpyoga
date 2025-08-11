@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer className='bg-[#11141B] pt-[84px] pb-10' id='contact'>
-       <section className='mx-[136px] flex text-white '>
+       <section className='mx-5 lg:mx-[136px] flex flex-col lg:flex-row gap-6 lg:gap-0 text-white '>
          <div className='lg:w-[410px]'>
           <Image
           src={'/logo-shanty-white.png'}
@@ -13,7 +13,7 @@ const Footer = () => {
           height={100}          
           />
           <p className='my-5 text-[14px] text-[#A5A5A7]'>Turpis ornare euismod quam odio sit. Egestas molestie eget tellus sed. Aenean enim mattis imperdiet semper erat quam. Tempor blandit elementum urna.</p>
-          <div className='flex gap-2 mb-14'>
+          <div className='flex gap-2 mb-8 lg:mb-14'>
             <Image
             src={'/mail.png'}
             alt='logo'
@@ -40,7 +40,7 @@ const Footer = () => {
           <p className='text-[12px] text-[#A5A5A7] mt-3'>Corporate Wellness</p>
          </div>
 
-         <div className='lg:ml-20 lg:w-[245px]'>
+         <div className='lg:ml-20 lg:w-[245px] mb-8'>
           <h3>Working Hours</h3>
           <p className='text-[12px] text-[#A5A5A7]'>Scelerisque justo et sed in purus ornare pulvinar aliquam.</p>
 
@@ -66,12 +66,15 @@ const Footer = () => {
 
          </div>
        </section>
+
        <hr className='border border-[#a5a5a72b]'/>
-       <div className='mt-4 flex justify-between mx-[136px]'>
+
+
+       <div className='mt-4 flex flex-col lg:flex-row items-center gap-4 lg:gap-0 lg:items-start lg:justify-between mx-5 lg:mx-[136px]'>
          <p className='text-[#A5A5A7] text-[12px] '>Yoga & Meditation Template Kit By OmiSpace</p>
 
         
-         <p className='text-white text-[12px] ml-[136px] '>Desenvolvido por <a href="https://portifolio-black-two-51.vercel.app/" target='_blank' className='text-[#62826B] '>Lucas Santos</a></p> 
+         <p className='text-white text-[12px] lg:ml-[136px] '>Desenvolvido por <a href="https://portifolio-black-two-51.vercel.app/" target='_blank' className='text-[#62826B] '>Lucas Santos</a></p> 
 
   
        </div>
