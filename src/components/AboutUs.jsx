@@ -17,7 +17,7 @@ const AboutUs = () => {
             <p className='text-[12px] text-[#A5A5A7]'>Years of Experience</p>
           </div>
             <div className='w-[100px]'>
-              <h3 className='text-4xl lg:text-5xll'>30+</h3>
+              <h3 className='text-4xl lg:text-5xl'>30+</h3>
                         <p className='text-[12px] text-[#A5A5A7]'>Countries Reached</p>
             </div>
 
@@ -78,35 +78,35 @@ const AboutUs = () => {
 
      <div className='flex items-center justify-center gap-[110px] mb-[107px] flex-wrap lg:flex-nowrap'>
        <Image 
-    src={'/logo 1.png'}
+    src={'/logo1.png'}
     alt='yoga'
     width={78}
     height={100}
     className=''
     />
         <Image 
-    src={'/logo 2.png'}
+    src={'/logo2.png'}
     alt='yoga'
     width={200}
     height={100}
     className=''
     />   
      <Image 
-    src={'/logo 3.png'}
+    src={'/logo3.png'}
     alt='yoga'
     width={119}
     height={100}
     className=''
     /> 
        <Image 
-    src={'/logo 4.png'}
+    src={'/logo4.png'}
     alt='yoga'
     width={158}
     height={100}
     className=''
     />  
       <Image 
-    src={'/logo 5.png'}
+    src={'/logo5.png'}
     alt='yoga'
     width={60}
     height={100}
