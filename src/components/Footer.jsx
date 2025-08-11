@@ -41,7 +41,7 @@ const Footer = () => {
          </div>
 
          <div className='lg:ml-20 lg:w-[245px] mb-8'>
-          <h3>Working Hours</h3>
+          <h3 className='mb-5'>Working Hours</h3>
           <p className='text-[12px] text-[#A5A5A7]'>Scelerisque justo et sed in purus ornare pulvinar aliquam.</p>
 
           <div className='flex mt-5 gap-2'>

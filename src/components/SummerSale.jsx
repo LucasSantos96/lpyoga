@@ -55,7 +55,7 @@ const SummerSale = () => {
           </div>
         </div>
 
-        <div className="relative lg:left-10  top-20">
+        <div className="relative lg:left-24  top-20">
           <Image
             src={"/yoga10.png"}
             alt="layer"
