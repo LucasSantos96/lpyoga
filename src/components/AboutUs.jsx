@@ -3,14 +3,14 @@ import Image from 'next/image'
 import Card from './Card'
 const AboutUs = () => {
   return (
-    <section className='mx-[136px] pt-32 ' id='aboutus'>
-      <div className='flex justify-between'>
+    <section className='mx-5 lg:mx-[136px] pt-20 lg:pt-32 ' id='aboutus'>
+      <div className='flex flex-col lg:flex-row lg:justify-between '>
         <div className='lg:w-[400px]'>
            <p className='shadow py-2 px-4 w-fit rounded-full text-[12px] mb-4'>About Us</p>
            <h2 className='text-5xl mb-6'>Our Passion for Yoga & Meditation</h2>
            <p className='text-[#A5A5A7]'>Id massa id tortor interdum consectetur eu ultrices viverra. Est aliquet pellentesque potenti.</p>
         </div>
-        <div className='flex gap-12'>
+        <div className='flex gap-12 mt-10 justify-center lg:mt-0 lg:justify-normal'>
           <div className='w-[100px]'>
             <h3 className='text-5xl'>20+</h3>
             <p className='text-[12px] text-[#A5A5A7]'>Years of Experience</p>
@@ -27,7 +27,7 @@ const AboutUs = () => {
           </div>
       </div>
     
-    <div className='mt-16 flex mb-[107px]'>
+    <div className='mt-16 flex mb-[107px] flex-col gap-8 lg:flex-row lg:gap-0'>
       <div className='mr-8'>
     <Image 
     src={'/yoga4.jpg'}
@@ -75,7 +75,7 @@ const AboutUs = () => {
       </Card>
     </div>
 
-     <div className='flex items-center gap-[110px] mb-[107px]'>
+     <div className='flex items-center justify-center gap-[110px] mb-[107px] flex-wrap lg:flex-nowrap'>
        <Image 
     src={'/logo 1.png'}
     alt='yoga'

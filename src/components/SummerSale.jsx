@@ -7,7 +7,7 @@ const SummerSale = () => {
     <section className="">
       <div className="mx-[136px] pt-[104px] pb-[80px] bg-[#11141B] rounded-2xl px-[100px] relative top-[-220] mr-[70px] flex">
         <div className="w-[310px]">
-          <p className="bg-white py-2 px-4 font-medium text-[12px] w-fit rounded-full mb-4">
+          <p className="bg-white py-2 px-4 font-medium text-[12px] w-fit rounded-full mb-4 ">
             Summer Sale
           </p>
           <h2 className="text-5xl font-medium mb-5 text-white">
@@ -19,7 +19,7 @@ const SummerSale = () => {
           </p>
           <Button
             className={
-              "bg-[#62826B] text-[#FFEFC4] mt-10 rounded-full py-4 px-8"
+              "bg-[#62826B] text-[#FFEFC4] mt-10 rounded-full py-4 px-8 cursor-pointer transition-transform duration-300 hover:scale-110"
             }
           >
             Get Summer Sale

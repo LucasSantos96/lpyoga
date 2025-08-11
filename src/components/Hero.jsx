@@ -1,17 +1,24 @@
+'use client'
+
 import React from 'react'
 import Button from './Button'
 import Image from 'next/image'
 
 const Hero = () => {
+   const handleSubmit = ()=>{
+      window.open(
+         'https://wa.me/5511999999999','_blank'
+      )
+   }
   return (
-    <section className='mx-[136px] flex justify-between items-center '>
-     <div className='lg:w-[440px] mt-34'>
+    <section className='mx-5 lg:mx-[136px] flex  lg:justify-between items-center '>
+     <div className='lg:w-[440px] mt-10 lg:mt-34 '>
         <p className='text-[15px] font-medium'>Welcome To Shanty</p>
         <h1 className='text-6xl'>Discover the Power of Yoga & Meditation</h1>
         <p className='text-[#A5A5A7] text-[15px] mt-6'>Id massa id tortor interdum consectetur eu ultrices viverra. <br />  
         Est aliquet pellentesque potenti.</p>
 
-        <Button className={'text-[#FFEFC4] bg-[#62826B] px-8 py-4 rounded-full mt-6 cursor-pointer'}>Let’s Get Started</Button>
+        <Button className={' cursor-pointer transition-transform duration-300 hover:scale-110 text-[#FFEFC4] bg-[#62826B] px-8 py-4 rounded-full mt-6 w-full sm:w-fit  lg:w-fit'} onClick={handleSubmit}>Let’s Get Started</Button>
 
         <div className='flex items-center mt-[115px] mb-40'>
             <Image
@@ -33,7 +40,7 @@ const Hero = () => {
         </div>
      </div>
 
-     <div className=''>
+     <div className='hidden lg:block'>
         <Image
         src={'/yoga1.jpg'}
         alt='img'
