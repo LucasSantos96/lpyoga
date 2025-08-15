@@ -17,9 +17,9 @@ const WhyChoose = () => {
            <Image
             src={"/yoga5.jpg"}
              alt="yoga"
-             width={372}
+             width={342}
              height={100}
-             className="rounded-2xl"
+             className="rounded-2xl lg:w-[372px]"
              />
            <div className="shadow-2xl py-[52px] px-[24px] rounded-2xl flex flex-col items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-110 bg-white w-fit mb-20 lg:mb-0">
              <p className="text-5xl">10K+</p>
